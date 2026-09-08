@@ -8,11 +8,11 @@
 
 <br/>
 
-[![Airflow](https://img.shields.io/badge/Apache%20Airflow-2.9.0-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)](https://obsidian.md/)
+[![Airflow](https://img.shields.io/badge/Apache%20Airflow-2.9.0-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white&labelColor=111214)](https://airflow.apache.org/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=111214)](https://www.docker.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=111214)](https://www.postgresql.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-6-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=111214)](https://www.mongodb.com/)
+[![Obsidian](https://img.shields.io/badge/Obsidian-Vault-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white&labelColor=111214)](https://obsidian.md/)
 
 **[About](#-about) · [Features](#-features) · [Quick Start](#-quick-start) · [Project Structure](#%EF%B8%8F-project-structure) · [Course Outline](#%EF%B8%8F-course-outline) · [Roadmap](#-roadmap) · [Author](#-author)**
 
@@ -83,11 +83,16 @@ Each file inside `WorkSpace-Airflow` is numbered in the order it was taught, so 
 
 ## 🚀 Quick Start
 
+> [!WARNING]
+> **Two files need to be renamed before anything here works.** GitHub/zip uploads strip the leading dot from "dotfiles", so they were uploaded without it:
+> - `WorkSpace-Airflow/env` → rename to **`.env`** — without the dot, Docker Compose won't load these variables and the cluster won't start correctly.
+> - `Obsidian/obsidian` → rename to **`.obsidian`** — without the dot, Obsidian won't recognize the folder as the vault's config and will treat it as a plain note folder.
+
 ```bash
 # 1. Clone / unzip the repo, then move into the Airflow project
 cd WorkSpace-Airflow
 
-# 2. Copy the example env file and fill in your own secrets
+# 2. Rename the env file (see warning above), then copy it into place
 cp env .env
 
 # 3. Start the full cluster (webserver, scheduler, workers, Redis, Postgres)
@@ -123,7 +128,7 @@ docker compose down --volumes --remove-orphans
 
 To follow the course in order, drop the files from `0- My Dags/Airflow - Day 1 Files/Day 1 DAGs` and `Day 2 Files/Day 2 DAGs` into `dags/` one at a time (or all at once) and watch them appear in the UI.
 
-**Browsing the notes:** open the `Obsidian/` folder as a vault in Obsidian, then start from `Apache Airflow/Airflow - Topics.md` — it's the linked index for the whole syllabus.
+**Browsing the notes:** rename `Obsidian/obsidian` to `.obsidian` (see warning above), then open the `Obsidian/` folder as a vault in Obsidian and start from `Apache Airflow/Airflow - Topics.md` — it's the linked index for the whole syllabus.
 
 <div align="right"><a href="#airflow-course">↑ back to top</a></div>
 
@@ -143,7 +148,7 @@ To follow the course in order, drop the files from `0- My Dags/Airflow - Day 1 F
 │   ├── plugins/                                # Airflow plugins folder (mounted, empty by default)
 │   ├── config/                                 # Airflow config overrides (mounted, empty by default)
 │   ├── docker-compose.yaml                     # Official Airflow docker-compose (CeleryExecutor + Redis + Postgres)
-│   ├── env                                     # Copy/rename this file to .env
+│   ├── env                                     # ⚠️ rename to .env before running (see Quick Start)
 │   │
 │   └── 0- My Dags/
 │       ├── Airflow - Day 1 Files/
@@ -156,6 +161,8 @@ To follow the course in order, drop the files from `0- My Dags/Airflow - Day 1 F
 │           └── (data/, scripts/)
 │
 └── Obsidian/
+    ├── obsidian                                # ⚠️ rename to .obsidian before opening as a vault
+    │
     └── Apache Airflow/
         ├── Airflow - Topics.md                 # Course index / table of contents
         ├── Airflow - Excalidraw/               # Architecture & flow diagrams
@@ -194,7 +201,7 @@ The Obsidian vault (`Obsidian/Apache Airflow/Airflow - Topics.md`) is the single
 <summary><strong>📅 Day 2 — Advanced Logic & Modern Data Stack</strong></summary>
 <br/>
 
-9. Airflow Sensors
+09. Airflow Sensors
 10. Workflow Control (Decisions & Dependencies)
 11. Airflow XComs
 12. Airflow Hooks & Connections
@@ -209,14 +216,6 @@ The Obsidian vault (`Obsidian/Apache Airflow/Airflow - Topics.md`) is the single
 </details>
 
 <div align="right"><a href="#airflow-course">↑ back to top</a></div>
-
----
-
-## 🧭 Roadmap
-
-- [ ] Add a `docker-compose.override.yaml` example for adding Postgres/Mongo as extra services
-- [ ] Convert the Obsidian notes into a published static site (MkDocs/Docusaurus)
-- [ ] Add a `Makefile` wrapping the common `docker compose` commands
 
 ---
 
