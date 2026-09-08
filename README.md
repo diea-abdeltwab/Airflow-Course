@@ -1,15 +1,10 @@
 <div align="center">
 
-[![Airflow Course banner](https://capsule-render.vercel.app/api?type=waving&color=0:111214,50:16324a,100:0F2238&height=220&section=header&text=Airflow-Course&fontSize=52&fontColor=EDEDEC&animation=fadeIn&fontAlignY=38&desc=Two-Day%20Apache%20Airflow%20Bootcamp%20%E2%80%94%20DAGs%2C%20Labs%2C%20Notes%20%26%20Docker%20Setup&descAlignY=58&descSize=17&descColor=8B939B)](https://capsule-render.vercel.app)
+[![Airflow Course banner](https://capsule-render.vercel.app/api?type=waving&color=0:111214,50:16324a,100:0F2238&height=200&section=header&text=Airflow-Course&fontSize=52&fontColor=EDEDEC&animation=fadeIn&fontAlignY=45)](https://capsule-render.vercel.app)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=EDEDEC&background=00000000&center=true&vCenter=true&width=700&lines=25%2B+production-style+DAGs%2C+day+by+day;Sensors%2C+Hooks%2C+XComs%2C+Pools%2C+SLAs%2C+Branching;Docker-based+local+Airflow+cluster;Full+Obsidian+notes+vault+included.)](https://readme-typing-svg.herokuapp.com)
+### Two-Day Apache Airflow Bootcamp — DAGs, Labs, Notes & Docker Setup
 
-<br/>
-
-[![Stars](https://img.shields.io/github/stars/diea-abdeltwab/Airflow-Course?style=for-the-badge&color=F1C40F&labelColor=111214)](https://github.com/diea-abdeltwab/Airflow-Course/stargazers)
-[![Forks](https://img.shields.io/github/forks/diea-abdeltwab/Airflow-Course?style=for-the-badge&color=5DADE2&labelColor=111214)](https://github.com/diea-abdeltwab/Airflow-Course/network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/diea-abdeltwab/Airflow-Course?style=for-the-badge&color=58D68D&labelColor=111214)](https://github.com/diea-abdeltwab/Airflow-Course/commits/main)
-[![License](https://img.shields.io/badge/License-MIT-7A2E2E?style=for-the-badge&labelColor=111214)](LICENSE)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=EDEDEC&background=00000000&center=true&vCenter=true&width=700&lines=25%2B+production-style+DAGs%2C+day+by+day%3BSensors%2C+Hooks%2C+XComs%2C+Pools%2C+SLAs%2C+Branching%3BDocker-based+local+Airflow+cluster%3BFull+Obsidian+notes+vault+included.)](https://readme-typing-svg.demolab.com)
 
 <br/>
 
