@@ -1,0 +1,19 @@
+AIRFLOW_UID=1000
+
+TZ=Africa/Cairo
+AIRFLOW__CORE__DEFAULT_TIMEZONE=Africa/Cairo
+AIRFLOW__WEBSERVER__DEFAULT_UI_TIMEZONE=Africa/Cairo
+
+_PIP_ADDITIONAL_REQUIREMENTS="pandas apache-airflow-providers-mongo==4.0.0"
+
+AIRFLOW_CONN_POSTGRES_CONN=postgresql://myuser:123@my-postgres:5432/mydb
+
+AIRFLOW_CONN_MONGO_CONN=mongodb://myuser:123@my-mongodb:27017/mydb?authSource=admin
+
+AIRFLOW_CONN_FS_DEFAULT=fs:/opt/airflow/
+
+AIRFLOW__SMTP__SMTP_HOST="smtp.sendgrid.net"
+AIRFLOW__SMTP__SMTP_PORT="587"
+AIRFLOW__SMTP__SMTP_USER="apikey"
+AIRFLOW__SMTP__SMTP_PASSWORD="your-sendgrid-api-key-here"
+AIRFLOW__SMTP__SMTP_MAIL_FROM="your-email@example.com"
