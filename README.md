@@ -88,22 +88,13 @@ Each file inside `WorkSpace-Airflow` is numbered in the order it was taught, so 
 cd WorkSpace-Airflow
 
 # 2. Copy the example env file and fill in your own secrets
-cp .env.example .env
-# edit .env: set your own SMTP / DB credentials — never commit real secrets
+cp env .env
 
-# 3. (Linux only) set the Airflow UID to match your host user
-echo -e "AIRFLOW_UID=$(id -u)" >> .env
-
-# 4. Initialize the metadata database and create the default admin user
-docker compose up airflow-init
-
-# 5. Start the full cluster (webserver, scheduler, workers, Redis, Postgres)
+# 3. Start the full cluster (webserver, scheduler, workers, Redis, Postgres)
 docker compose up -d
 
-# 6. Open the UI → http://localhost:8080  (default user/pass: airflow / airflow)
+# 4. Open the UI → http://localhost:8080  (default user/pass: airflow / airflow)
 ```
-
-> ⚠️ **Security note:** the original `.env` used while recording this course had a live SendGrid API key committed to it. This repo ships a redacted **`.env.example`** instead — copy it to `.env` and put in your own credentials. If you're reusing the original `.env` anywhere, rotate that SendGrid key first.
 
 <details>
 <summary><strong>🎬 Everyday usage commands</strong></summary>
@@ -152,7 +143,7 @@ To follow the course in order, drop the files from `0- My Dags/Airflow - Day 1 F
 │   ├── plugins/                                # Airflow plugins folder (mounted, empty by default)
 │   ├── config/                                 # Airflow config overrides (mounted, empty by default)
 │   ├── docker-compose.yaml                     # Official Airflow docker-compose (CeleryExecutor + Redis + Postgres)
-│   ├── .env.example                            # Redacted environment template — copy to .env
+│   ├── env                                     # Copy/rename this file to .env
 │   │
 │   └── 0- My Dags/
 │       ├── Airflow - Day 1 Files/
