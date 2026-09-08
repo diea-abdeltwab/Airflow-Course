@@ -1,0 +1,21 @@
+order_id,customer_id,customer_name,order_date,product,category,quantity,unit_price,total_price,shipping_address,city,status,payment_method
+2001,C101,Ahmed Hassan,2026-01-03,Laptop,Electronics,1,15000.00,15000.00,12 Tahrir St,Cairo,Shipped,Credit Card
+2002,C102,Sara Mohamed,2026-01-06,Phone,Electronics,2,5500.00,11000.00,55 Corniche Ave,Alexandria,Delivered,Cash
+2003,C103,,2026-01-08,Headphones,Electronics,1,800.00,800.00,7 Pyramids Rd,Giza,Delivered,Credit Card
+2004,C104,Omar Khaled,2026-01-11,Desk Chair,Furniture,0,2200.00,0.00,3 Nile St,Cairo,Pending,Bank Transfer
+2005,C105,Nour Ali,2026-01-14,Keyboard,Electronics,2,450.00,900.00,88 Delta Rd,Mansoura,Delivered,Credit Card
+2006,C101,Ahmed Hassan,2026-01-17,Monitor,Electronics,1,3200.00,3200.00,12 Tahrir St,Cairo,Shipped,Credit Card
+2007,C106,Mona Samir,2026-01-20,Notebook,Stationery,10,25.00,250.00,23 Port Said St,Alexandria,Delivered,Cash
+2008,C107,Khaled Farouk,2026-01-23,Laptop,Electronics,1,15000.00,15000.00,9 Canal Rd,Ismailia,Cancelled,Credit Card
+2009,C108,,2026-01-27,Phone,Electronics,1,5500.00,5500.00,44 October St,Giza,Pending,Cash
+2010,C102,Sara Mohamed,2026-01-27,Desk,Furniture,1,3500.00,3500.00,55 Corniche Ave,Alexandria,Delivered,Bank Transfer
+2011,C109,Youssef Nabil,2026-01-30,USB Hub,Electronics,5,120.00,600.00,11 Ramses Blvd,Cairo,Delivered,Credit Card
+2012,C110,Rana Tarek,2026-02-02,Chair,Furniture,2,1800.00,,19 Garden City,Cairo,Delivered,Cash
+2013,C101,Ahmed Hassan,2026-02-04,Laptop,Electronics,1,99999999.00,99999999.00,12 Tahrir St,Cairo,Shipped,Credit Card
+2014,C106,Mona Samir,2026-02-07,Pen Set,Stationery,20,15.00,300.00,23 Port Said St,Alexandria,Delivered,Cash
+2015,C104,Omar Khaled,2026-02-09,Monitor,Electronics,1,3200.00,3200.00,3 Nile St,Cairo,Delivered,Bank Transfer
+2016,C111,Dina Mahmoud,2026-02-11,Tablet,Electronics,1,8000.00,8000.00,77 Mohandeseen St,Giza,Shipped,Credit Card
+2017,C107,Khaled Farouk,2026-02-13,Bookshelf,Furniture,1,1200.00,1200.00,9 Canal Rd,Ismailia,Delivered,Cash
+2018,C105,Nour Ali,2026-02-16,Laptop,Electronics,1,15000.00,15000.00,88 Delta Rd,Mansoura,Pending,Credit Card
+2019,C109,Youssef Nabil,2026-02-19,Keyboard,Electronics,3,450.00,1350.00,11 Ramses Blvd,Cairo,Delivered,Bank Transfer
+2020,C110,Rana Tarek,2026-02-21,Headphones,Electronics,2,800.00,1600.00,19 Garden City,Cairo,Delivered,Credit Card
