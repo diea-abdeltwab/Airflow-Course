@@ -1,12 +1,22 @@
 <div align="center">
 
-[![Airflow Course banner](https://capsule-render.vercel.app/api?type=waving&color=0:111214,50:16324a,100:0F2238&height=200&section=header&text=Airflow-Course&fontSize=52&fontColor=EDEDEC&animation=fadeIn&fontAlignY=45)](https://capsule-render.vercel.app)
+[![Airflow Course banner](https://capsule-render.vercel.app/api?type=waving&color=0:111214,50:16324a,100:0F2238&height=200&section=header&text=Airflow-Course&fontSize=52&fontColor=EDEDEC&animation=fadeIn&fontAlignY=45)](https://airflow.diea.online/)
 
 ### Two-Day Apache Airflow Bootcamp — DAGs, Labs, Notes & Docker Setup
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=EDEDEC&background=00000000&center=true&vCenter=true&width=700&lines=25%2B+production-style+DAGs%2C+day+by+day%3BSensors%2C+Hooks%2C+XComs%2C+Pools%2C+SLAs%2C+Branching%3BDocker-based+local+Airflow+cluster%3BFull+Obsidian+notes+vault+included.)](https://readme-typing-svg.demolab.com)
 
 <br/>
+
+<a href="https://airflow.diea.online/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=700&color=2DD4BF&background=00000000&center=true&vCenter=true&width=700&height=45&lines=Read+the+full+course+online;17+lessons+%C2%B7+Diagrams+%C2%B7+Code+%C2%B7+Search;airflow.diea.online" alt="Read the course online" />
+</a>
+
+<a href="https://airflow.diea.online/">
+  <img src="https://img.shields.io/badge/Live_Course_Website-airflow.diea.online-2DD4BF?style=for-the-badge&logo=apacheairflow&logoColor=white&labelColor=0F2238" height="48" alt="Open the live course website" />
+</a>
+
+<br/><br/>
 
 [![Airflow](https://img.shields.io/badge/Apache%20Airflow-2.9.0-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white&labelColor=111214)](https://airflow.apache.org/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=111214)](https://www.docker.com/)
@@ -17,6 +27,9 @@
 **[About](#-about) · [Features](#-features) · [Quick Start](#-quick-start) · [Project Structure](#%EF%B8%8F-project-structure) · [Course Outline](#%EF%B8%8F-course-outline) · [Roadmap](#-roadmap) · [Author](#-author)**
 
 </div>
+
+> [!TIP]
+> 📚 **Prefer reading in the browser?** All 17 lessons, diagrams and code are available as a searchable website with dark/light mode: **[airflow.diea.online](https://airflow.diea.online/)**
 
 ---
 
@@ -66,6 +79,7 @@ Each file inside `WorkSpace-Airflow` is numbered in the order it was taught, so 
 
 - 🧩 **Every core Airflow building block covered** — DAG definition styles, retries & schedules, Bash/Python/Empty/Email/Postgres operators, context, Variables, Params, Sensors (`FileSensor`, `SqlSensor`, `MongoSensor`), trigger rules, branching, XComs, Hooks, `SQLAlchemy`, Pools, SLAs & callbacks
 - 🗒️ **Obsidian vault included** — 19 linked concept notes plus Excalidraw architecture diagrams; open `Obsidian/` directly as a vault
+- 🌐 **Live course website** — the same notes as a searchable, Obsidian-style web app at [airflow.diea.online](https://airflow.diea.online/)
 
 <div align="right"><a href="#airflow-course">↑ back to top</a></div>
 
@@ -128,7 +142,7 @@ docker compose down --volumes --remove-orphans
 
 To follow the course in order, drop the files from `0- My Dags/Airflow - Day 1 Files/Day 1 DAGs` and `Day 2 Files/Day 2 DAGs` into `dags/` one at a time (or all at once) and watch them appear in the UI.
 
-**Browsing the notes:** rename `Obsidian/obsidian` to `.obsidian` (see warning above), then open the `Obsidian/` folder as a vault in Obsidian and start from `Apache Airflow/Airflow - Topics.md` — it's the linked index for the whole syllabus.
+**Browsing the notes:** read them online at [airflow.diea.online](https://airflow.diea.online/), or rename `Obsidian/obsidian` to `.obsidian` (see warning above), then open the `Obsidian/` folder as a vault in Obsidian and start from `Apache Airflow/Airflow - Topics.md` — it's the linked index for the whole syllabus.
 
 <div align="right"><a href="#airflow-course">↑ back to top</a></div>
 
@@ -178,7 +192,7 @@ To follow the course in order, drop the files from `0- My Dags/Airflow - Day 1 F
 
 ## 🗺️ Course Outline
 
-The Obsidian vault (`Obsidian/Apache Airflow/Airflow - Topics.md`) is the single source of truth for the syllabus:
+The Obsidian vault (`Obsidian/Apache Airflow/Airflow - Topics.md`) is the single source of truth for the syllabus, and the same lessons are published online at [airflow.diea.online](https://airflow.diea.online/):
 
 <details open>
 <summary><strong>📅 Day 1 — Concepts & Core Development</strong></summary>
@@ -242,12 +256,13 @@ Released under the [MIT License](LICENSE).
 ### **Diea Abdeltwab**
 Data Engineer · Software Engineer
 
+[![Course Website](https://img.shields.io/badge/Course_Website-airflow.diea.online-2DD4BF?style=for-the-badge&logo=apacheairflow&logoColor=white&labelColor=0F2238)](https://airflow.diea.online/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diea-abdeltwab/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/diea-abdeltwab)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dieaabdeltwab2024@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:diea.abdeltwab@gmail.com)
 
 <sub>If this saved you time, a ⭐ on the repo helps others find it.</sub>
 
-[![footer](https://capsule-render.vercel.app/api?type=waving&color=0:111214,50:16324a,100:0F2238&height=110&section=footer)](https://capsule-render.vercel.app)
+[![footer](https://capsule-render.vercel.app/api?type=waving&color=0:111214,50:16324a,100:0F2238&height=110&section=footer)](https://airflow.diea.online/)
 
 </div>
